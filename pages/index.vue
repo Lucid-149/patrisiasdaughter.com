@@ -1,9 +1,10 @@
 <template>
-  <div class="container">
-    <div>
-      <img src="~/assets/img/Fashion.jpg" alt="" />
-    </div>
-  </div>
+  <div
+    class="container h-screen bg-cover w-screen"
+    :style="{
+      'background-image': `url(${require('../assets/img/Fashion.jpg')})`,
+    }"
+  ></div>
 </template>
 
 <script></script>
